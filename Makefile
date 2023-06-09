@@ -5,7 +5,7 @@ test:
 	cd tests && python -m unittest
 
 install:
-	pdm install
+	pip install -r requirements.txt
 
 run:
 	python -m cvapr.boilerplate
